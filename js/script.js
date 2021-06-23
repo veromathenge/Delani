@@ -55,7 +55,7 @@ $(function () {
 
 
     //Form Validation
-        $("form#form3B").function(event) ;{
+        $("form#form3B").on('submit',function(event) {
             event.preventDefault();
             let name = $("input#name").val();
             let email = $("input#email").val();
